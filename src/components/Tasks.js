@@ -1,23 +1,11 @@
-const tasks = [
-  {
-    id: 1,
-    text: 'プレゼンの準備',
-  },
-  {
-    id: 2,
-    text: 'あの本を読み切る',
-  },
-  {
-    id: 3,
-    text: 'お弁当を作る',
-  }
-]
+import Task from './Task'
 
-const Tasks = () => {
+const Tasks = ({tasks}) => {
+
   return (
     <>
       {tasks.map((task) => (
-        <h3>{task.text}</h3>
+        <Task key={task.id} task={task}/>
         ))}
     </>
   )
