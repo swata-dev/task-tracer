@@ -8,26 +8,38 @@ function App() {
     {
       id: 1,
       text: 'プレゼンの準備',
+      reminder: true,
     },
     {
       id: 2,
       text: 'あの本を読み切る',
+      reminder: true,
     },
     {
       id: 3,
       text: 'お弁当を作る',
+      reminder: false,
     }
   ])
 
   // delete task
   const deleteTask = (id) => {
-    console.log('delete', id)
+    setTasks(tasks.filter((task) => task.id !== id))
+  }
+
+  // Toggle Reminder
+  const toggleReminder = (id) => {
+    console.log(id)
   }
 
   return (
     <div className="container">
       <Header title='Task Tracer' />
-      <Tasks tasks={tasks} onDelete={deleteTask}/>
+      {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete=
+      {deleteTask} onToggle={toggleReminder}/>
+      ) : (
+        'No Tasks To Show'
+      )}
     </div>
   );
 }
