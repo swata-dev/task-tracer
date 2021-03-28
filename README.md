@@ -1,3 +1,5 @@
+### React を練習するために作成したタスク管理ツールです。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
