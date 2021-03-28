@@ -1,6 +1,6 @@
 React 練習用にに作成したタスク管理ツールです。
 
-<img width="1680" alt="Screen Shot 2021-03-28 at 20 08 44" src="https://user-images.githubusercontent.com/74521093/112750101-73607380-9001-11eb-90fd-89129df8704e.png">
+<img width="1652" alt="Screen Shot 2021-03-28 at 20 12 54" src="https://user-images.githubusercontent.com/74521093/112750192-11ecd480-9002-11eb-86aa-6c91788f8d34.png">
 
 # Getting Started with Create React App
 
