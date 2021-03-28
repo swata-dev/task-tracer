@@ -34,11 +34,11 @@ function App() {
 
   return (
     <div className='container'>
-      <Header title='Task Tracer' />
+      <Header title='タスク管理' />
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
-        'No Tasks To Show'
+        'タスクを追加しましょう'
       )}
     </div>
   );
