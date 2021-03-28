@@ -1,4 +1,4 @@
-### React を練習するために作成したタスク管理ツールです。
+#### React を練習するために作成したタスク管理ツールです。
 
 <img width="599" alt="Screen Shot 2021-03-28 at 19 46 16" src="https://user-images.githubusercontent.com/74521093/112749612-6726e700-8ffe-11eb-96da-1658fc3ad8ca.png">
 
