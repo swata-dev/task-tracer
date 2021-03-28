@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className='container'>
-      <Header title='タスク管理' />
+      <Header title='タスクマネ' />
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
