@@ -24,7 +24,7 @@ const headingStyle = {
   color: 'white',
   backgroundColor: 'green',
   padding: '15px',
-  margin: '20px',
+  margin: '30px',
 };
 
 export default Header;
